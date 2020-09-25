@@ -1,0 +1,254 @@
+﻿/* ------------------- Main containers ------------------- */
+
+body 
+{
+		background:url('../images/desert-sand-texture.jpg');
+		background-repeat:repeat;
+		text-align:justify;
+		
+		
+			
+}
+
+/* -------------- Top row -------------- */
+
+#top 
+{
+			margin-bottom:20px;
+			background-color:#F2E6C2;
+			padding: 10px;
+			border: 0px 0px 3px 3px
+}
+#logo
+
+#bookings
+{
+	padding:5px 0px 5px 0px;
+
+}
+
+/* -------------- Navigation -------------- */
+
+.navbar 
+{
+	background-color:#728BC1;
+	color: #ffffff;
+	font-size: 14px;
+	border: 0px;
+	
+	
+}
+
+.navbar-header * 
+{
+	color: #ffffff;
+	border-style: solid;
+    border: 1px;
+    border-color:#ffffff;
+}
+
+nav a 
+{
+	color: #ffffff;
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+
+nav a:hover
+{
+	color: #ffffff;
+	background:#8CA5D6!important;
+}
+
+/* -------------- Big banner image -------------- */
+
+#banner 
+{
+	margin-bottom: 20px;
+}
+
+#banner img 
+{
+	border-radius: 3px;
+}
+
+/* -------------- Main content area -------------- */
+
+#content 
+{
+	border-radius: 3px;
+	background: #F2E6C2;
+	margin-bottom: 20px;
+	
+	
+}
+
+/* Headings */
+
+h1, h2, h3 
+{
+	color: #728BC1;
+	font-family: 'Aref Ruqaa';	
+	font-weight: normal;
+	
+}
+
+/* Text */
+
+p 
+{
+	text-align:justify;
+}
+
+ul 
+{
+	list-style-type: circle;
+	overflow: hidden;
+}
+
+ol 
+{
+	overflow: hidden;
+}
+
+/* Images */
+
+#content .pull-left 
+{
+	margin-bottom:10px;
+	margin-right:10px;
+	
+
+}
+
+/* Tables */
+table, th, td {
+    border: 1px solid #D9BF8F!important;
+    width: 100%;
+}
+table th 
+{
+	background: #D9BF8F;
+	color: #ffffff;
+}
+td.currency{
+	text-align:right;
+}
+/* Links */
+
+#content a 
+{
+	color: #A84111;
+	font-weight: bold;
+	
+}
+
+#content a:visited 
+{
+	color:#D9BF8F;
+}
+
+#content a:hover 
+{
+	color: #0089af;
+}
+
+/* -------------- Sidebar -------------- */
+
+#sidebar
+{
+	padding-top:20px;
+}
+
+.panel-default 
+{
+	background: #D9BF8F;
+}
+
+/*SIDEBAR IMAGE*/
+
+#sidebar-image .panel-body
+{
+
+	padding:0px;
+}
+
+/*Testimonials*/
+
+#testimonial .panel-heading
+{
+	background:#728BC1;
+	color:#ffffff;
+}
+
+#testimonial .panel-body
+{
+	background: #D9BF8F;
+
+}
+
+#testimonial p
+{
+	
+	text-align: left;
+
+}
+
+/* -------------- Footer -------------- */
+
+#footer 
+{
+	border: 3px;
+	background: #728BC1;
+	padding-top:10px;
+	color: #ffffff;
+	margin-bottom:15px;	
+}
+
+#footer a 
+{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+/* ------------------- Forms ------------------- */
+
+label 
+{
+	
+}
+
+input, select, textarea  
+{
+	border: 1px solid #D9BF8F;
+	margin-top:1px;
+}
+
+.btn-primary
+{
+	background:#A84111;
+	border-color:#A84111;
+}
+
+.btn-primary:hover
+{
+	background:#A84111;
+	border-color:#734636;
+	color:#A84111;
+}
+/* Forms */
+.error 
+{
+	color: #f00;
+}
+
+.error-highlight 
+{
+	border: 1px solid #f00;
+}
+/* ------------------- Gallery ------------------- */
+
+#gallery img {
+	margin: 12px;
+}
+
